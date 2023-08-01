@@ -1,0 +1,155 @@
+*{
+    margin: 25px auto;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.imgcon{
+    width: 100vw;
+    background-color: rgb(199, 199, 199);
+
+    
+}
+.imgcon .coverimg{
+    margin: 5vh auto;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: 50vh;
+    padding: 0 100;
+    background-image: url('https://images.pexels.com/photos/236748/pexels-photo-236748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+}
+
+
+
+.contnet_grid3_mtop{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.contnet_grid3_mtop .box_shadow{
+
+    margin: 2vh auto;
+    width: 25vw;
+    overflow: hidden;
+    /* overflow ? */
+    box-shadow: 0px 0px 15px -5px;
+    font-size: larger;
+    
+
+}
+
+.contnet_grid3_mtop .box_shadow:hover{
+    background-color: grey;
+    transition-duration: 500ms;
+    cursor: pointer;
+    box-shadow: 0px 0px 80px -5px;
+    transform: scale(1.02);
+    color: antiquewhite;
+   
+}
+
+.contnet_grid3_mtop .box_shadow .img{
+    margin:auto;
+    height:200px;
+    overflow: hidden;
+    background-color: aliceblue;
+} 
+
+.contnet_grid3_mtop .box_shadow .img img{
+
+    width: 100%;
+    height: auto;
+
+
+}
+
+.contnet_grid3_mtop .box_shadow .title{
+    text-align: center;
+    justify-content: center;
+}
+
+.contnet_grid3_mtop .box_shadow .desciption{
+    width: 350px;
+
+}
+
+.contnet_grid3_mtop .box_shadow .button{
+    display: flex;
+    margin: auto;
+    background-color: aquamarine;
+    position: relative;
+    bottom: 10px;
+}
+
+.contnet_grid3_mtop .box_shadow .button:active{
+    display: flex;
+    margin: auto;
+    background-color:bisque;
+    position: relative;
+    bottom: 10px;
+    transform: translateY(2px); 
+    transition-duration: 1s;
+}
+
+.buynow{
+    display: flex;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color:cadetblue;
+    justify-content: center;
+    text-align: center;
+}
+
+.buynow:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+.buynow:active{
+    display: flex;
+    margin: auto;
+    background-color:bisque;
+    position: relative;
+    bottom: 10px;
+    transform: translateY(2px); 
+    transition-duration: 1s;
+
+}
+
+.buybtn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:burlywood;
+    font-size: 1.5rem;
+    margin: auto ;
+    width: 20vw;
+    padding: 1rem;
+    box-shadow: 0px 0px 7px -3px;
+}
+
+.buybtn:hover{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: greenyellow;
+    margin: auto ;
+    width: 20vw;
+    padding: 1rem;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 250ms;
+    
+}
+
+.username{
+  font-size: 3rem;
+  margin: auto 2vw;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,42 @@
+.home{
+    height: 205vh;
+    background-color: rgb(3, 3, 72);
+
+}
+
+.image{
+    background-image: url('./homeCover.jpg');
+    width: 100%;
+    height: 40vh;
+    background-color: aqua;
+    background-size: contain;
+}
+
+
+
+
+.gridbox{
+    margin: 15vh auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 80vh;
+    
+}
+.gridbox .grid{
+    background-color: salmon;
+    margin: 10px 50px;
+    width: 25%;
+    height: 50%;
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.3);
+
+}
+
+.gridbox :hover{
+    background-color: grey;
+    transition-duration: 500ms;
+    cursor: pointer;
+    box-shadow: 2px 2px 12px rgb(255, 255, 255);
+    transform: scale(1.02);
+}

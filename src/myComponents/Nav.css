@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 10vh;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+ul h1{
+
+    font-size: 2rem;
+    display: flex;
+    position: absolute;
+    top:3vh;
+    right:85vw;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+}
+
+ul li{
+    
+    margin: auto 15px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+ 
+}
+
+a{
+    color: goldenrod;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: gray;
+    transition-duration: 250ms;
+    font-size: larger;
+}
+
+.authbtn{
+    background-color:black;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif; 
+    font-weight:500;
+    font-size: 1.5rem;
+    border: none;
+
+    
+
+
+}
+
+.authbtn:hover{
+    background-color:black;
+    color: orange;
+    border: none;
+    font-family: 'Poppins', sans-serif; 
+    font-weight:500;
+    font-size: 1.5rem;
+    transform: scale(1.2);
+    transition-duration: 250ms;
+}

@@ -1,0 +1,9 @@
+1) make API
+2) Make 3 card fetching data for refreces 
+3) see any textile website for refrence and design material page with card, card having image, title and basic information 
+4) Design material page 
+
+
+npm init -y
+npm install express cors
+

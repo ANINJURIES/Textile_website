@@ -1,0 +1,6 @@
+Features,
+
+
+Users tabs: Frequent bought items, customs tags ?, (user dashboard : user photo, user details, company data), input type "color" to pick a color 
+
+Bottom left ai caht box,

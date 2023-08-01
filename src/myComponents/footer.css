@@ -1,0 +1,53 @@
+
+.footer{
+    /* border:10px solid red; */
+    margin:2vh 0 0 0;
+    background-color: bisque;
+    
+    
+}
+.somedia svg{
+   
+    margin: 50px 50px 20px 25px;
+}
+
+.somedia{
+  
+    justify-content: center;
+    text-align: center;
+}
+
+.somedia svg:hover{
+    color: aqua;
+    transform:scale(2); 
+    transition-delay: 500ms ;
+    transition-duration:1s;
+
+
+}
+.maillabel{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+.maillabel .mail{
+    margin: 0px 15px 10px 25px;
+}
+
+.text{
+    
+    justify-content: center;
+    text-align: center;
+}
+
+.foots{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: darkolivegreen;
+    justify-content: center;
+    text-align: center;
+}
+
